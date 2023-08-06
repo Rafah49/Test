@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid salmon;*/
+    padding: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+}
+
+.menu li {
+    margin-left: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black; 
+}
+
+.banner-info img{
+    width: 1500px;
+    height: 300px;
+}
+
+.banner-info {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
+
+main div {
+    padding: 20px;
+}
+
+main div p {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgb(142, 210, 244);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
